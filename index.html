@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore 1000 years of Indian empires with Rulers of India. Learn about dynasties like the Cholas, Mughals, and Marathas through interactive content and videos.">
+    <meta name="keywords" content="Indian history, dynasties, Chola, Mughal, Maratha, Sikh, British Raj, Hoysala, Vijayanagara, Delhi Sultanate, Gurjara-Pratihara, Bahmani">
+    <meta name="author" content="Prathmesh Patil, Tanmay Gatkule">
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="Rulers of India: 1000 Years of Empires">
+    <meta property="og:description" content="Discover the history of Indian dynasties, from the Cholas to the British Raj, with interactive content and videos.">
+    <meta property="og:image" content="images/favicon.ico">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rulers of India: 1000 Years of Empires">
+    <meta name="twitter:description" content="Discover the history of Indian dynasties, from the Cholas to the British Raj, with interactive content and videos.">
+    <meta name="twitter:image" content="images/favicon.ico">
+    <title>Rulers of India: 1000 Years of Empires</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav aria-label="Main navigation">
+        <span class="logo">Rulers</span>
+        <div class="nav-links">
+            <a href="#dynasties">Dynasties</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#artifacts">Artifacts</a>
+            <a href="#team">Our Team</a>
+            <a href="#mission">Mission</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+            <button class="login-btn" onclick="openLogin()" aria-label="Open login page">Login</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover the Legacy of Indian Rulers</h1>
+            <p class="hero-subtitle">Journey through centuries of royal heritage, power, and cultural magnificence.</p>
+            <button class="explore-btn" onclick="document.getElementById('dynasties').scrollIntoView({ behavior: 'smooth' })">Explore History</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Dynasty Grid -->
+        <section id="dynasties" class="dynasty-grid" aria-labelledby="dynasties-heading">
+            <h2 id="dynasties-heading">Featured Dynasties</h2>
+            <div class="card-container">
+                <article class="dynasty-card" onclick="openModal('chola')" tabindex="0" aria-label="Learn more about the Chola Dynasty">
+                    <img src="images/chola dy cover.webp" alt="Chola Dynasty naval fleet illustration">
+                    <div class="card-info">
+                        <h3>Chola Dynasty</h3>
+                        <p>Naval power of the south</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('mughal')" tabindex="0" aria-label="Learn more about the Mughal Empire">
+                    <img src="images/mughal.webp" alt="Mughal Empire Taj Mahal architecture">
+                    <div class="card-info">
+                        <h3>Mughal Empire</h3>
+                        <p>Architects of the Taj</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('vijayanagara')" tabindex="0" aria-label="Learn more about the Vijayanagara Empire">
+                    <img src="images/vijayanarana.jfif" alt="Vijayanagara Empire Hampi ruins">
+                    <div class="card-info">
+                        <h3>Vijayanagara Empire</h3>
+                        <p>Guardians of Hampi</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('delhi')" tabindex="0" aria-label="Learn more about the Delhi Sultanate">
+                    <img src="images/DALL·E 2025-03-02 21.23.04 - A highly realistic depiction of the Delhi Sultanate era, featuring grand Indo-Islamic architecture. The image showcases the Qutub Minar, Alai Darwaza,.webp" alt="Delhi Sultanate Qutub Minar architecture">
+                    <div class="card-info">
+                        <h3>Delhi Sultanate</h3>
+                        <p>Builders of Qutub Minar</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('maratha')" tabindex="0" aria-label="Learn more about the Maratha Empire">
+                    <img src="data/atak_par.jfif" alt="Maratha Empire warriors in battle">
+                    <div class="card-info">
+                        <h3>Maratha Empire</h3>
+                        <p>Warriors of the Deccan</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('gurjara-pratihara')" tabindex="0" aria-label="Learn more about the Gurjara-Pratihara Dynasty">
+                    <img src="images/Gujara-pratihara.webp" alt="Gurjara-Pratihara Dynasty northern defense">
+                    <div class="card-info">
+                        <h3>Gurjara-Pratihara Dynasty</h3>
+                        <p>Defenders of the North</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('bahmani')" tabindex="0" aria-label="Learn more about the Bahmani Sultanate">
+                    <img src="images/Bahamani sultanate.jfif" alt="Bahmani Sultanate Deccan architecture">
+                    <div class="card-info">
+                        <h3>Bahmani Sultanate</h3>
+                        <p>Deccan's Islamic rulers</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('sikh')" tabindex="0" aria-label="Learn more about the Sikh Empire">
+                    <img src="images/sikh.webp" alt="Sikh Empire warriors of Punjab">
+                    <div class="card-info">
+                        <h3>Sikh Empire</h3>
+                        <p>Lions of Punjab</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('british')" tabindex="0" aria-label="Learn more about the British Raj">
+                    <img src="images/british raj.webp" alt="British Raj colonial architecture">
+                    <div class="card-info">
+                        <h3>British Raj</h3>
+                        <p>Colonial architects</p>
+                    </div>
+                </article>
+                <article class="dynasty-card" onclick="openModal('hoysala')" tabindex="0" aria-label="Learn more about the Hoysala Empire">
+                    <img src="images/hoysala.jfif" alt="Hoysala Empire temple architecture">
+                    <div class="card-info">
+                        <h3>Hoysala Empire</h3>
+                        <p>Masters of temples</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Dynasty Timeline -->
+        <section id="timeline" class="timeline-section" aria-labelledby="timeline-heading">
+            <h2 id="timeline-heading">Dynasty Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-event left">
+                    <span class="event-year">300 BCE</span>
+                    <span class="event-description">Maurya Empire Founded</span>
+                </div>
+                <div class="timeline-event right">
+                    <span class="event-year">1206</span>
+                    <span class="event-description">Delhi Sultanate Established</span>
+                </div>
+                <div class="timeline-event left">
+                    <span class="event-year">1526</span>
+                    <span class="event-description">Mughal Empire Begins</span>
+                </div>
+                <div class="timeline-event right">
+                    <span class="event-year">1674</span>
+                    <span class="event-description">Maratha Empire Founded</span>
+                </div>
+                <div class="timeline-event left">
+                    <span class="event-year">1858</span>
+                    <span class="event-description">British Raj Established</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynasty Artifacts -->
+        <section id="artifacts" class="artifacts-section" aria-labelledby="artifacts-heading">
+            <h2 id="artifacts-heading">Dynasty Artifacts</h2>
+            <div class="artifacts-grid">
+                <div class="artifact-item">
+                    <img src="images/bronze.webp" alt="Chola Bronze Statue">
+                    <h3>Chola Bronze Statue</h3>
+                </div>
+                <div class="artifact-item">
+                    <img src="images/mughal-peacock-throne.jpg" alt="Mughal Peacock Throne">
+                    <h3>Mughal Peacock Throne</h3>
+                </div>
+                <div class="artifact-item">
+                    <img src="images/maratha-sword.webp" alt="Maratha Sword">
+                    <h3>Maratha Sword</h3>
+                </div>
+                <div class="artifact-item">
+                    <img src="images/sikh-turban.webp" alt="Sikh Ceremonial Turban">
+                    <h3>Sikh Ceremonial Turban</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team of Developers Section -->
+        <section id="team" class="team-section" aria-labelledby="team-heading">
+            <h2 id="team-heading">Meet Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="data/pra.jpg" alt="Team Member 1" class="team-image">
+                    <h3>Prathmesh Patil</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="data/tanmay (1).jpg" alt="Team Member 2" class="team-image">
+                    <h3>Tanmay Gatkule</h3>
+                    <p>UI/UX Designer</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Sections -->
+        <section id="mission" class="info-section" aria-labelledby="mission-heading">
+            <h2 id="mission-heading">Our Mission</h2>
+            <p>To educate and inspire by showcasing the rich history of India's rulers, their legacies, and their impact on the subcontinent's culture and heritage.</p>
+        </section>
+
+        <!-- Links Sections -->
+        <section id="resources" class="info-section" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Resources</h2>
+            <p>Explore more about Indian history through these platforms:</p>
+            <ul>
+                <li><a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            </ul>
+        </section>
+
+        <section id="contact" class="info-section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>Reach out to us for inquiries or feedback:</p>
+            <ul>
+                <li><a href="tel:+917875179728" aria-label="Call 7875179728">7875179728</a></li>
+                <li><a href="tel:+919763315000" aria-label="Call 9763315000">9763315000</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Modal with Video -->
+    <div id="dynastyModal" class="modal" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()" aria-label="Close modal">×</span>
+            <h2 id="modal-title" style="display: none;">Dynasty Information</h2>
+            <div id="modal-info" tabindex="0"></div>
+            <div style="text-align:center; margin: 20px 0;">
+                <iframe id="modal-dynasty-video" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:none;" title="Dynasty video"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer aria-label="Footer navigation">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Preserving and sharing the rich history of Indian dynasties for future generations.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#dynasties">Dynasties</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#artifacts">Artifacts</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p><a href="mailto:info@rulersofindia.com">info@rulersofindia.com</a></p>
+                <p><a href="tel:+917875179728">+91 7875179728</a></p>
+                <p>123 History Lane, Mumbai, India</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Rulers of India. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
