@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Rulers of India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Boxicons CDN for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Login Form -->
+        <form id="loginForm" class="auth-form active" onsubmit="handleLogin(event)">
+            <h1>Login to Rulers of India</h1>
+            <div class="input-box">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username" required aria-label="Username">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required aria-label="Email">
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required aria-label="Phone Number">
+                <i class='bx bxs-phone'></i>
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required aria-label="Password">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div id="passwordStrength" class="password-strength"></div>
+            <div class="remember-forgot">
+                <label for="remember-me"><input type="checkbox" id="remember-me" aria-label="Remember Me">Remember Me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="#" onclick="toggleForm('register')">Register</a></p>
+            </div>
+            <div id="loginFeedback" class="login-feedback"></div>
+        </form>
+
+        <!-- Register Form -->
+        <form id="registerForm" class="auth-form" onsubmit="handleRegister(event)">
+            <h1>Register for Rulers of India</h1>
+            <div class="input-box">
+                <label for="reg-username">Username</label>
+                <input type="text" id="reg-username" placeholder="Choose a username" required aria-label="Username">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <label for="reg-email">Email</label>
+                <input type="email" id="reg-email" placeholder="Enter your email" required aria-label="Email">
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <label for="reg-phone">Phone Number</label>
+                <input type="tel" id="reg-phone" placeholder="Enter your phone number" required aria-label="Phone Number">
+                <i class='bx bxs-phone'></i>
+            </div>
+            <div class="input-box">
+                <label for="reg-password">Password</label>
+                <input type="password" id="reg-password" placeholder="Create a password" required aria-label="Password">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div id="regPasswordStrength" class="password-strength"></div>
+            <button type="submit" class="btn">Register</button>
+            <div class="register-link">
+                <p>Already have an account? <a href="#" onclick="toggleForm('login')">Login</a></p>
+            </div>
+            <div id="registerFeedback" class="login-feedback"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
