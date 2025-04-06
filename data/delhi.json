@@ -1,0 +1,77 @@
+{
+    "name": "Delhi Sultanate",
+    "founder": "Qutb-ud-din Aibak (Mamluk Dynasty)",
+    "capital": "Delhi",
+    "period": "1206–1526 CE",
+    "image": "images/delhi_sultanate.webp",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ?start=30",
+    "sections": [
+        {
+            "title": "The Rise of the Delhi Sultanate",
+            "content": [
+                "The Delhi Sultanate was established on June 25, 1206 CE, when Qutb-ud-din Aibak, a former slave and trusted general of Muhammad of Ghor, declared himself the Sultan of Delhi after the death of his master. This marked the beginning of Muslim rule in northern India, following the defeat of the Rajput ruler Prithviraj Chauhan in the Second Battle of Tarain (1192 CE).",
+                "Qutb-ud-din Aibak, originally a Turkic slave from Central Asia, rose through the ranks due to his military prowess and loyalty. His ascension laid the foundation for the Mamluk Dynasty (1206–1290 CE), also known as the Slave Dynasty, as its rulers were of slave origin. Aibak’s reign was short (1206–1210 CE), but he initiated significant architectural projects, such as the construction of the Qutb Minar and the Quwwat-ul-Islam Mosque in Delhi, symbolizing the arrival of Islamic culture in India.",
+                "The early years of the Sultanate were marked by consolidation of power, as Aibak and his successors faced resistance from Rajput kingdoms and internal rebellions. Despite these challenges, the Delhi Sultanate established a strong foothold in northern India, setting the stage for centuries of Muslim rule."
+            ],
+            "image": "images/qutb-ud-din_aibak.webp"
+        },
+        {
+            "title": "Expansion and Conflicts",
+            "content": [
+                "The Delhi Sultanate reached its zenith of territorial expansion under Alauddin Khilji (1296–1316 CE), the most powerful ruler of the Khilji Dynasty (1290–1320 CE). Alauddin’s military campaigns extended the Sultanate’s control over much of northern and central India, including Gujarat, Rajasthan, Malwa, and the Deccan. His most notable conquests included the defeat of the Mongols, who repeatedly attempted to invade India during his reign.",
+                "Alauddin repelled Mongol invasions at least five times between 1297 and 1308 CE, earning him the title of 'Sikandar-i-Sani' (Second Alexander). His general, Malik Kafur, led successful campaigns in the Deccan, bringing the Yadava, Kakatiya, and Hoysala kingdoms under the Sultanate’s influence and extracting immense wealth in the form of tribute.",
+                "However, the Sultanate faced constant conflicts with neighboring Hindu kingdoms, such as the Rajputs of Mewar and the Cholas in the south. Alauddin’s harsh policies, including heavy taxation and market reforms, were aimed at funding his military campaigns but often led to discontent among his subjects. After his death in 1316 CE, the Khilji Dynasty declined due to internal strife and succession disputes."
+            ],
+            "image": "images/alauddin_khilji.webp"
+        },
+        {
+            "title": "Administration and Military Prowess",
+            "content": [
+                "The administration of the Delhi Sultanate evolved significantly over its three centuries of rule, transitioning from the simplicity of the Mamluks to the complex bureaucratic systems of the Tughlaqs. The Sultan was the supreme authority, supported by a council of nobles (called the 'Majlis-i-Khalwat') and a network of provincial governors (called 'Walis' or 'Muqtis').",
+                "The military was the backbone of the Sultanate, with a standing army composed of cavalry, infantry, and war elephants. Alauddin Khilji introduced significant military reforms, including the establishment of a permanent army paid in cash, rather than through land grants (iqta system). He also maintained a vast intelligence network to monitor his nobles and prevent rebellions.",
+                "The Tughlaq Dynasty (1320–1414 CE), under rulers like Ghiyasuddin Tughlaq and Muhammad bin Tughlaq, further centralized the administration. However, Muhammad bin Tughlaq’s ambitious but poorly executed policies—such as the transfer of the capital from Delhi to Daulatabad (1327 CE) and the introduction of token currency—led to administrative chaos and widespread rebellion.",
+                "The Sultanate’s forts, such as Tughlaqabad Fort and the Siri Fort, were architectural marvels that served as military strongholds, protecting Delhi from invasions and symbolizing the Sultanate’s power."
+            ],
+            "image": "images/tughlaqabad_fort.webp"
+        },
+        {
+            "title": "Economy and Trade",
+            "content": [
+                "The economy of the Delhi Sultanate thrived on agriculture, trade, and craftsmanship. The fertile Indo-Gangetic plains provided a surplus of crops like wheat, rice, and sugarcane, which supported a growing population. Land revenue was the primary source of income for the state, with taxes often collected in kind during the early years and later in cash under Alauddin Khilji’s reforms.",
+                "Trade flourished under the Sultanate, as Delhi became a major hub on the Silk Road, connecting India with Central Asia, the Middle East, and Europe. Goods such as textiles, spices, and precious stones were exported, while horses, silk, and luxury goods were imported. The port of Cambay (modern-day Khambhat) in Gujarat became a key center for maritime trade.",
+                "Alauddin Khilji’s market reforms, known as the 'Diwan-i-Riyasat,' regulated prices of essential goods in Delhi to ensure affordability for his soldiers and citizens. He established state-controlled markets (called 'Shahna-i-Mandi') and appointed market inspectors to prevent hoarding and black-marketing.",
+                "The Sultanate also minted its own coinage, with gold, silver, and copper coins bearing Arabic inscriptions. However, Muhammad bin Tughlaq’s experiment with token currency (1329–1330 CE) failed miserably, as it led to widespread counterfeiting and economic instability."
+            ],
+            "image": "images/delhi_sultanate_trade.webp"
+        },
+        {
+            "title": "Culture and Arts",
+            "content": [
+                "The Delhi Sultanate fostered a rich cultural synthesis of Persian, Turkic, and Indian traditions, creating a unique Indo-Islamic culture. Persian became the official language of administration and literature, leading to the growth of Persian poetry and historical writing. Chroniclers like Minhaj-i-Siraj (author of 'Tabaqat-i-Nasiri') and Ziauddin Barani (author of 'Tarikh-i-Firoz Shahi') documented the history of the Sultanate.",
+                "Architecture flourished under the Sultanate, blending Islamic and Indian styles. The Qutb Minar, started by Qutb-ud-din Aibak and completed by Iltutmish, is a UNESCO World Heritage Site and a prime example of Indo-Islamic architecture. The Quwwat-ul-Islam Mosque, built using materials from demolished Hindu and Jain temples, reflects the early phase of this architectural fusion.",
+                "The Sultanate also patronized music, calligraphy, and miniature painting, though these arts reached their peak under the later Mughals. Sufi saints like Nizamuddin Auliya and Khwaja Moinuddin Chishti played a significant role in spreading Islam through their teachings, promoting a message of love and tolerance that resonated with the local population.",
+                "Festivals, such as the Persian New Year (Nowruz), were celebrated with grandeur, while local Indian traditions like Holi and Diwali continued to thrive, reflecting the cultural coexistence of the time."
+            ],
+            "image": "images/quwwat-ul-islam_mosque.webp"
+        },
+        {
+            "title": "The Decline of the Delhi Sultanate",
+            "content": [
+                "The decline of the Delhi Sultanate began during the reign of Muhammad bin Tughlaq (1325–1351 CE), whose erratic policies destabilized the empire. His decision to shift the capital from Delhi to Daulatabad in the Deccan was intended to better control the south but resulted in immense hardship for the population and weakened the central authority.",
+                "The invasion of Timur (Tamerlane) in 1398 CE dealt a severe blow to the Sultanate. Timur sacked Delhi, massacred its inhabitants, and plundered its wealth, leaving the city in ruins. The Sayyid Dynasty (1414–1451 CE) and the Lodi Dynasty (1451–1526 CE) that followed were weak and unable to restore the Sultanate’s former glory.",
+                "Internal rebellions, such as the rise of the Bahmani Sultanate in the Deccan and the emergence of independent kingdoms in Bengal and Jaunpur, further eroded the Sultanate’s power. The final nail in the coffin came in 1526 CE, when Babur, a descendant of Timur and Genghis Khan, defeated Ibrahim Lodi at the First Battle of Panipat, establishing the Mughal Empire."
+            ],
+            "image": "images/timur_invasion.webp"
+        },
+        {
+            "title": "Legacy of the Delhi Sultanate",
+            "content": [
+                "The Delhi Sultanate left an indelible mark on Indian history, serving as a foundational period for Muslim rule in the subcontinent. It introduced Persian administrative systems, such as the iqta system of land grants, which influenced later Mughal governance. The Sultanate’s legal system, based on Sharia law, coexisted with local customs, creating a pluralistic society.",
+                "Architecturally, the Sultanate’s contributions, such as the Qutb Minar, Alai Darwaza, and Tughlaqabad Fort, remain iconic symbols of Indo-Islamic heritage. The period also saw the growth of Urdu as a language, born from the interaction of Persian, Arabic, and local dialects.",
+                "The Delhi Sultanate’s interactions with the Mongols and its role in protecting India from their invasions preserved the subcontinent’s cultural identity. Its patronage of Sufism helped spread Islam in a non-coercive manner, fostering a syncretic culture that blended Islamic and Hindu traditions.",
+                "Politically, the Sultanate laid the groundwork for the centralized rule that the Mughals would later perfect. Its legacy is also evident in the cosmopolitan nature of Delhi, which became a melting pot of cultures, religions, and ideas, a characteristic that defines the city to this day."
+            ],
+            "image": "images/delhi_sultanate_legacy.webp"
+        }
+    ]
+}
